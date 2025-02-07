@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Sign-Up Form</title>
+</head>
+
+<body>
+
+    <div class="sidebar">
+        <div class="logo">
+            <img src="./assets/images/odin-lined.png" alt="odin logo" class="img-logo">
+            <p>ODIN</p>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="title">
+            <p>
+                This is not a real online service! You know you need something like this in your life to help you
+                realize
+                your deepest dreams. <br>Sign up <em>now</em> to get started. <br><br>You know you want to.
+            </p>
+        </div>
+
+        <div class="form">
+            <form action="#" method="POST" id="create-account">
+                <fieldset>
+                    <p>Let's do this!</p>
+
+                    <div class="form-content">
+                        <div class="left-column">
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" id="first-name" minlength="3" maxlength="20" required>
+
+                            <label for="user-email">EMAIL</label>
+                            <input type="email" id="user-email" required>
+
+                            <label for="user-password">PASSWORD</label>
+                            <input type="password" id="user-password" required>
+                        </div>
+
+                        <div class="right-column">
+                            <label for="last-name">LAST NAME</label>
+                            <input type="text" id="last-name" minlength="3" maxlength="20" required>
+
+                            <label for="user-phone">PHONE NUMBER</label>
+                            <input type="tel" id="user-phone" required>
+
+                            <label for="confirm-password">CONFIRM PASSWORD</label>
+                            <input type="password" id="confirm-password" required>
+                        </div>
+                    </div>
+                </fieldset>
+
+
+            </form>
+
+        </div>
+        <div class="log-in">
+            <button type="submit" form="create-account">Create Account</button>
+
+            <p>
+                Already have an account? <a href="#">Log in</a>
+            </p>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
